@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title></title>
+  
+</head>
+<body>
+
+
+
+  <form id="demoForm" action="#" method="post" enctype="multipart/form-data" autocomplete="on" novalidate>
+
+
+    <fieldset>
+      <legend>Text & basic inputs</legend>
+
+      <div class="row">
+        <label for="fullname">Full name</label>
+        <input id="fullname" name="fullname" type="text" placeholder="Jane Doe" required minlength="2" maxlength="100" autofocus>
+      </div>
+
+      <div class="row">
+        <label for="username">Username (pattern)</label>
+        <input id="username" name="username" type="text" placeholder="letters & numbers" pattern="[A-Za-z0-9_-]{3,20}" title="3–20 characters: letters, numbers, _ or -" required>
+      </div>
+
+      <div class="row">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+      </div>
+
+      <div class="row">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" minlength="8" placeholder="At least 8 characters" required>
+      </div>
+
+      <div class="row">
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" placeholder="+91-XXXXXXXXXX" pattern="^\+?[0-9\- ]{7,20}$">
+      </div>
+
+      <div class="row">
+        <label for="website">Website</label>
+        <input id="website" name="website" type="url" placeholder="https://example.com">
+      </div>
+
+      <div class="row">
+        <label for="search">Search</label>
+        <input id="search" name="search" type="search" placeholder="Search...">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Numbers, ranges & dates</legend>
+
+      <div class="row">
+        <label for="age">Age (number)</label>
+        <input id="age" name="age" type="number" min="0" max="120" step="1" value="30">
+      </div>
+
+      <div class="row">
+        <label for="rating">Rating (range)</label>
+        <input id="rating" name="rating" type="range" min="0" max="10" step="1" value="7">
+        <span class="hint">Use the slider</span>
+      </div>
+
+      <div class="row">
+        <label for="birthday">Birthday</label>
+        <input id="birthday" name="birthday" type="date">
+      </div>
+
+      <div class="row">
+        <label for="appt">Appointment (datetime-local)</label>
+        <input id="appt" name="appt" type="datetime-local">
+      </div>
+
+      <div class="row">
+        <label for="month">Month</label>
+        <input id="month" name="month" type="month">
+      </div>
+
+      <div class="row">
+        <label for="week">Week</label>
+        <input id="week" name="week" type="week">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Color, file, hidden</legend>
+
+      
+      <div class="row">
+        <label for="avatar">Upload avatar</label>
+        <input id="avatar" name="avatar" type="file" accept="image/*" multiple>
+        <span class="hint">Accepts images; you can select multiple files.</span>
+      </div>
+
+      <input type="hidden" name="session_token" value="abc123xyz">
+    </fieldset>
+
+    <fieldset>
+      <legend>Choice controls</legend>
+
+      <div class="row">
+        <label>Gender (radio)</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+      </div>
+
+      <div class="row">
+        <label>Interests (checkbox)</label>
+        <label><input type="checkbox" name="interest" value="coding"> Coding</label>
+        <label><input type="checkbox" name="interest" value="music"> Music</label>
+        <label><input type="checkbox" name="interest" value="travel"> Travel</label>
+      </div>
+
+    
+
+      
+    </fieldset>
+
+   
+   
+
+  </form>
+
+  
+</body>
+</html>
