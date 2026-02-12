@@ -1,0 +1,34 @@
+body {
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+    
+    background-repeat: repeat-y;
+    background-size: 8cm;
+    background-position:top right ;
+    background-image:url(https://imgs.search.brave.com/SS79Wxb2gSut67gTDRi0rZZJs_MoCCWeK2q3ldkpgbw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTAv/MzU1LzQ2OC9zbWFs/bC8zZC1iYWNrZ3Jv/dW5kLXZlY3Rvci1h/YnN0cmFjdC1wYXR0/ZXJuLXRleHR1cmUt/ZnJlZS1waG90by5q/cGc);
+    background-size: cover;
+     
+}
+html, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    text-decoration:underline;
+    text-transform: uppercase;
+    text-shadow: 3px 0px #ff0000;
+    text-decoration-color:#ffeeaa;
+}
+img{
+    float:left;
+    margin-left: 20px;
+    border: 10px solid #999;
+    border-radius: 50%;
+}
