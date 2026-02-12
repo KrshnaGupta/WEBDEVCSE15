@@ -1,0 +1,40 @@
+div p {
+    color: white;
+    background-color: black;
+}
+#abes{
+    color:red;
+    background-color: bisque;
+}
+#msd {
+    color: rgb(56, 43, 56);
+    background-color: lightseagreen;
+}
+#link1 {
+    color:red;
+    background-color: yellow;
+
+
+
+}
+#msd1 {
+    color: aquamarine;
+    background-color: blue;
+
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+ul li{
+    background-color: aqua;
+    margin: 20px;
+    border-right: 2px solid #e41111;
+    padding: 0px 20px;
+
+
+}
+ul li::first-letter{
+    color:red;
+
+}
