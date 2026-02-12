@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+html,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 900px;
+    height: auto;
+    background-color: #007E6E;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.class {
+    width: 200px;
+    height: 200px;
+    background-color: #E83C91;
+    margin: 5px;
+}
+
